@@ -1,0 +1,210 @@
+body{
+    background-color: black;
+}
+
+h1,h2,h3,h4,h5,h6{
+    padding: 0px;
+    margin: 0px;
+}
+
+p{
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    margin-top: 2.9rem;
+    .logo{
+        img{
+            width: 14.25rem;
+            height: 3.4375rem;
+            flex-shrink: 0;
+
+            @media(max-width:1250px){
+                width: 12rem;
+                height: auto;
+            }
+
+            @media(max-width:1000px){
+                width: 10rem;
+                height: auto;
+            }
+        }
+
+        @media(max-width:590px){
+            display: none;
+        }
+    }
+
+    .hamburger{
+        @media(min-width: 590px){
+            display: none;
+        }
+    }
+
+    .mob-logo{
+        @media(min-width: 590px){
+            display: none;
+        }
+    }
+
+    .stay-connected-btn{
+        button {
+            display: flex;
+            position: relative;
+            cursor: pointer;
+            justify-content: center;
+            align-items: center;
+            gap: 0.5em;
+            background-color: black;
+            color: #FFF;
+            font-family: Urbanist, sans-serif;
+            font-size: 1.4em; /* Increased font size */
+            font-weight: 400;
+            padding: 0.5em 1em; /* Adjusted padding */
+            border: none;
+            border-radius: 1em; /* Adjusted for larger button */
+            text-align: center;
+            overflow: hidden;
+            z-index: 1;
+        
+            /* Increased width with responsiveness */
+            width: 100%; /* Button takes 95% of the container width */
+            height: 6rem; /* Increased maximum width */
+            width: 15rem; /* Increased minimum width */
+        
+            line-height: 1.5;
+        
+            /* Responsive adjustments */
+            @media (max-width: 1250px) {
+                font-size: 1.3em;
+            }
+        
+            @media (max-width: 1000px) {
+                font-size: 1.2em;
+                width: 12rem;
+                height: 5rem;
+            }
+        
+            @media (max-width: 590px) {
+                font-size: 1em;
+                padding: 0.8em 1.5em; /* Slightly smaller padding on small screens */
+                display: none;
+            }
+        }
+        
+        button::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            border-radius: 1.5em; /* Match the button's border radius */
+            background: linear-gradient(90deg, rgba(255, 0, 150, 1), rgba(255, 118, 184, 1), rgba(73, 76, 248, 1));
+            padding: 2px; /* Consistent border thickness */
+            -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+            mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+            -webkit-mask-composite: destination-out;
+            mask-composite: exclude;
+            z-index: -1; /* Place behind the button content */
+        }
+        
+        
+        
+    }
+
+    @media(max-width:590px){
+        margin-top: 2rem;
+    }
+}
+
+.coming-soon-section{
+    height: 70vh;
+
+    @media(max-width:590px){
+        height: 80vh;
+    }
+
+    .content{
+        img{
+            width: 40vw;
+
+            @media(max-width:1100px){
+                width: 60vw;
+            }
+
+            @media(max-width:800px){
+                width: 80vw;
+            }
+
+            @media(max-width:590px){
+                width: 100%;
+            }
+        }
+        width: 80%;
+
+        p{
+            color: #FFF;
+            font-family: Urbanist;
+            font-size: 1.375rem;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 3.39313rem; /* 180.967% */
+            margin-top: 1.2rem;
+
+            @media(max-width:1366px){
+                font-size: 1.1rem;
+            }
+
+            @media(max-width:590px){
+                color: #FFF;
+                text-align: center;
+                font-family: Urbanist;
+                font-size: 0.875rem;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 1.367rem; /* 156.231% */
+            }
+        }
+    }
+}
+
+footer{
+    .footer-container{
+        display: flex;
+        align-items: center;
+        gap: 1.2em;
+        p{
+            color: #FFF;
+            font-family: Urbanist;
+            font-size: 1.275rem;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 3.39313rem; /* 180.967% */
+
+            @media(max-width:1250px){
+                font-size: 1.1rem;
+            }
+
+
+        }
+
+        img{
+            width: 2.5rem;
+            height: 2.5rem;
+            flex-shrink: 0;
+
+            @media(max-width: 1250px){
+                width: 2.2rem;
+                height: 2.2rem;
+            }
+
+            @media(max-width: 590px){
+                width: 1.66669rem;
+                height: 1.66669rem;
+                flex-shrink: 0;
+            }
+        }
+    }
+}
