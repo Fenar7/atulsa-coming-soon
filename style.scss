@@ -15,9 +15,8 @@ p{
 header{
     position: absolute;
     top: 7%;
-
-    @media(max-width:1366px){
-        margin-top: 3rem;
+    @media(max-width:576px){
+        top: 4%;
     }
     .logo{
         img{
@@ -130,10 +129,6 @@ header{
         
         
     }
-
-    @media(max-width:590px){
-        margin-top: 2rem;
-    }
 }
 
 .coming-soon-section{
@@ -192,6 +187,10 @@ header{
 footer{
     position: absolute;
     bottom: 7%;
+
+    @media(max-width:576px){
+        bottom: 2%;
+    }
     .footer-container{
         display: flex;
         align-items: center;

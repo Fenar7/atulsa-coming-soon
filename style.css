@@ -16,9 +16,9 @@ header {
   position: absolute;
   top: 7%;
 }
-@media (max-width: 1366px) {
+@media (max-width: 576px) {
   header {
-    margin-top: 3rem;
+    top: 4%;
   }
 }
 header .logo img {
@@ -125,11 +125,6 @@ header .stay-connected-btn button::before {
     border-radius: 1.45763rem;
   }
 }
-@media (max-width: 590px) {
-  header {
-    margin-top: 2rem;
-  }
-}
 
 .coming-soon-section {
   height: 100vh;
@@ -191,6 +186,11 @@ header .stay-connected-btn button::before {
 footer {
   position: absolute;
   bottom: 7%;
+}
+@media (max-width: 576px) {
+  footer {
+    bottom: 2%;
+  }
 }
 footer .footer-container {
   display: flex;
