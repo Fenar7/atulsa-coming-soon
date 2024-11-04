@@ -118,7 +118,7 @@ header{
 }
 
 .coming-soon-section{
-    height: 70vh;
+    height: 75vh;
 
     @media(max-width:590px){
         height: 80vh;
@@ -211,4 +211,8 @@ footer{
             }
         }
     }
+}
+
+.container2{
+    width: 90%;
 }

@@ -111,7 +111,7 @@ header .stay-connected-btn button::before {
 }
 
 .coming-soon-section {
-  height: 70vh;
+  height: 75vh;
 }
 @media (max-width: 590px) {
   .coming-soon-section {
@@ -210,4 +210,8 @@ footer .footer-container img {
     height: 1.4rem;
     flex-shrink: 0;
   }
+}
+
+.container2 {
+  width: 90%;
 }/*# sourceMappingURL=style.css.map */
