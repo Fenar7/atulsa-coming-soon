@@ -20,9 +20,10 @@ header{
             height: 3.4375rem;
             flex-shrink: 0;
 
-            @media(max-width:1250px){
-                width: 12rem;
-                height: auto;
+            @media(max-width:1450px){
+                width: 10.1875rem;
+                height: 2.4575rem;
+                flex-shrink: 0;
             }
 
             @media(max-width:1000px){
@@ -70,20 +71,17 @@ header{
         
             /* Increased width with responsiveness */
             width: 100%; /* Button takes 95% of the container width */
-            height: 6rem; /* Increased maximum width */
-            width: 15rem; /* Increased minimum width */
+            width: 16.4375rem;
+            height: 5.62775rem;
         
             line-height: 1.5;
         
             /* Responsive adjustments */
-            @media (max-width: 1250px) {
+            @media (max-width: 1450px) {
                 font-size: 1.3em;
-            }
-        
-            @media (max-width: 1000px) {
-                font-size: 1.2em;
-                width: 12rem;
-                height: 5rem;
+                width: 10.75rem;
+                height: 3.6805rem;
+                font-size: 1.09325rem;
             }
         
             @media (max-width: 590px) {

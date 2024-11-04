@@ -20,10 +20,11 @@ header .logo img {
   height: 3.4375rem;
   flex-shrink: 0;
 }
-@media (max-width: 1250px) {
+@media (max-width: 1450px) {
   header .logo img {
-    width: 12rem;
-    height: auto;
+    width: 10.1875rem;
+    height: 2.4575rem;
+    flex-shrink: 0;
   }
 }
 @media (max-width: 1000px) {
@@ -67,21 +68,17 @@ header .stay-connected-btn button {
   z-index: 1;
   /* Increased width with responsiveness */
   width: 100%; /* Button takes 95% of the container width */
-  height: 6rem; /* Increased maximum width */
-  width: 15rem; /* Increased minimum width */
+  width: 16.4375rem;
+  height: 5.62775rem;
   line-height: 1.5;
   /* Responsive adjustments */
 }
-@media (max-width: 1250px) {
+@media (max-width: 1450px) {
   header .stay-connected-btn button {
     font-size: 1.3em;
-  }
-}
-@media (max-width: 1000px) {
-  header .stay-connected-btn button {
-    font-size: 1.2em;
-    width: 12rem;
-    height: 5rem;
+    width: 10.75rem;
+    height: 3.6805rem;
+    font-size: 1.09325rem;
   }
 }
 @media (max-width: 590px) {
