@@ -174,35 +174,41 @@ footer{
     .footer-container{
         display: flex;
         align-items: center;
-        gap: 1.2em;
+        gap: 1em;
+        @media(max-width:576px){
+            gap: 0.7em;
+        }
         p{
             color: #FFF;
             font-family: Urbanist;
-            font-size: 1.275rem;
+            font-size: 1.20469rem;
             font-style: normal;
             font-weight: 400;
-            line-height: 3.39313rem; /* 180.967% */
+            line-height: 2.542rem; /* 180.967% */
 
             @media(max-width:1250px){
                 font-size: 1.1rem;
+
             }
 
-
+            @media(max-width: 576px){
+                font-size: 0.9rem;
+            }
         }
 
         img{
-            width: 2.5rem;
-            height: 2.5rem;
+            width: 2rem;
+            height: 2rem;
             flex-shrink: 0;
 
             @media(max-width: 1250px){
-                width: 2.2rem;
-                height: 2.2rem;
+                width: 1.6rem;
+                height: 1.6rem;
             }
 
             @media(max-width: 590px){
-                width: 1.66669rem;
-                height: 1.66669rem;
+                width: 1.4rem;
+                height: 1.4rem;
                 flex-shrink: 0;
             }
         }
