@@ -25,9 +25,8 @@ header .logo img {
   width: 9.375rem;
   height: 2.2615rem;
   flex-shrink: 0;
-  flex-shrink: 0;
 }
-@media (max-width: 1450px) {
+@media (max-width: 1440px) {
   header .logo img {
     width: 10.1875rem;
     height: 2.4575rem;
@@ -84,18 +83,16 @@ header .stay-connected-btn button {
   line-height: 1.5;
   /* Responsive adjustments */
 }
-@media (max-width: 1450px) {
+@media (max-width: 1440px) {
   header .stay-connected-btn button {
-    display: flex;
+    font-size: 1.09325rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.97838rem; /* 180.967% */
     width: 10.75rem;
     height: 3.6805rem;
     padding: 0.83813rem 1.20256rem;
-    justify-content: center;
-    align-items: center;
-    gap: 0.36444rem;
-    flex-shrink: 0;
-    font-size: 1.09325rem;
-    border-radius: 1.42375rem;
+    border-radius: 1.45763rem;
   }
 }
 @media (max-width: 590px) {
@@ -121,7 +118,7 @@ header .stay-connected-btn button::before {
   mask-composite: exclude;
   z-index: -1; /* Place behind the button content */
 }
-@media (max-width: 1450px) {
+@media (max-width: 1440px) {
   header .stay-connected-btn button::before {
     border-radius: 1.45763rem;
   }
@@ -134,11 +131,11 @@ header .stay-connected-btn button::before {
   width: 80%;
 }
 .coming-soon-section .content img {
-  width: 800px;
+  width: 40vw;
 }
-@media (max-width: 1100px) {
+@media (max-width: 1440px) {
   .coming-soon-section .content img {
-    width: 60vw;
+    width: 50vw;
   }
 }
 @media (max-width: 800px) {
