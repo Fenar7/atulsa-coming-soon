@@ -20,8 +20,9 @@ header{
     }
     .logo{
         img{
-            width: 14.25rem;
-            height: 3.4375rem;
+            width: 9.375rem;
+            height: 2.2615rem;
+            flex-shrink: 0;
             flex-shrink: 0;
 
             @media(max-width:1450px){
@@ -64,19 +65,19 @@ header{
             background-color: black;
             color: #FFF;
             font-family: Urbanist, sans-serif;
-            font-size: 1.67rem; /* Increased font size */
+            font-size: 1.06781rem;
             font-weight: 400;
             border: none;
-            border-radius: 2.22881rem;
+            border-radius: 1.42375rem;
             text-align: center;
             overflow: hidden;
             z-index: 1;
         
             /* Increased width with responsiveness */
             display: flex;
-            width: 16.4375rem;
-            height: 5.62775rem;
-            padding: 1.28156rem 1.83875rem;
+            width: 10.5rem;
+            height: 3.59494rem;
+            padding: 0.81863rem 1.17456rem;
             justify-content: center;
             align-items: center;
             gap: 0.55719rem;
@@ -95,7 +96,7 @@ header{
                 gap: 0.36444rem;
                 flex-shrink: 0;
                 font-size: 1.09325rem;
-                border-radius: 1.45763rem;
+                border-radius: 1.42375rem;
             }
         
             @media (max-width: 590px) {
@@ -112,7 +113,7 @@ header{
             left: 0;
             right: 0;
             bottom: 0;
-            border-radius: 2.22881rem;
+            border-radius: 1.42375rem;
             background: linear-gradient(90deg, rgba(255, 0, 150, 1), rgba(255, 118, 184, 1), rgba(73, 76, 248, 1));
             padding: 2px; /* Consistent border thickness */
             -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
@@ -136,7 +137,7 @@ header{
 
     .content{
         img{
-            width: 48vw;
+            width: 800px;
 
             @media(max-width:1100px){
                 width: 60vw;
@@ -155,7 +156,7 @@ header{
         p{
             color: #FFF;
             font-family: Urbanist;
-            font-size: 1.875rem;
+            font-size: 1.58013rem;
             font-style: normal;
             font-weight: 300;
             line-height: 3.39313rem; /* 180.967% */
@@ -194,14 +195,14 @@ footer{
     .footer-container{
         display: flex;
         align-items: center;
-        gap: 1.5em;
+        gap: 0.5em;
         @media(max-width:576px){
             gap: 0.7em;
         }
         p{
             color: #FFF;
             font-family: Urbanist;
-            font-size: 1.875rem;
+            font-size: 1.16075rem;
             font-style: normal;
             font-weight: 400;
             line-height: 2.542rem; /* 180.967% */
@@ -217,8 +218,8 @@ footer{
         }
 
         img{
-            width: 2.5rem;
-            height: 2.5rem;
+            width: 1.29406rem;
+            height: 1.29406rem;
             flex-shrink: 0;
 
             @media(max-width: 1250px){
